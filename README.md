@@ -16,6 +16,7 @@ base-devel git wget curl perl python texinfo gmp mpfr libmpc isl libusb freetype
    $ ./tools/rockboxdev.sh --prefix=/opt/rbtc
    $ export PATH=/opt/rbtc/bin:$PATH
 
+## patch and build f/w
 3. patch f/w to use menu button as back
 
    $ cd <rb-repo>
@@ -33,6 +34,7 @@ base-devel git wget curl perl python texinfo gmp mpfr libmpc isl libusb freetype
 
    $ unzip -o rockbox.zip -d /run/media/$USER/IPOD
 
+## further mods
 6. fonts (optional)
 
 TTF fonts can be converted using the convttf tool which is part of rb.
